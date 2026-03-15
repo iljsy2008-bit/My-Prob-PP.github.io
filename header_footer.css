@@ -1,0 +1,155 @@
+@media screen  and (max-width: 1199px){
+    header form div{
+        width: 239px;
+    }
+}
+
+
+
+@media screen  and (max-width: 991px){
+header > .contr{
+    flex-wrap: wrap;
+    justify-content: center;
+}
+header > .contr > img {
+    margin-right: 30px;
+}
+header > .contr form, header > .contr .cart {
+    margin-top: 15px;
+}
+header > .contr form{
+    margin-right: 20px;
+}
+header form div {
+    width: 410px;
+}
+footer .right form div {
+    width: 240px;
+}
+
+
+
+
+}
+
+
+
+@media screen  and (max-width: 744px){
+    header form div {
+        width: 300px;
+    }
+    header .menu {
+        margin: 13px 0;
+        
+    }
+    footer .cotr{
+        flex-wrap: wrap;
+    }
+    footer .right{
+        margin-left: 20px auto 0;
+    }
+
+}
+
+
+
+
+@media screen  and (max-width: 560px){
+   header form div {
+        width: 270px;
+    } 
+    header .contr .menu a {
+    
+    }
+    header .contr form {
+        margin-right: 7px;
+    }
+    header .contr img {
+        margin-left: 20px;
+    }
+    
+    footer .cotr{
+        flex-wrap: wrap;
+    }
+    footer .right{
+        margin:20px auto 0;
+    }
+    footer .copy {
+        margin-top: 10px;
+    }
+}
+
+
+
+
+
+@media screen  and (max-width: 460px){
+    header .contr .menu a {
+        margin: 0 6px;
+    }
+    header form  div input{
+      width: 120px;
+    }
+    header form  div{
+        width: 200px;
+    }
+}
+
+
+
+@media screen  and (max-width: 414px){
+   header .burger{
+     display: inline-block;
+   }
+   header .contr img {
+        margin-left: 0px;
+        margin-right: 150px;
+   
+    }
+    header .contr .menu a{
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 38px;
+        
+    }
+
+    header .contr .menu a:hover,  header .contr .menu a.aktiv {
+        border: none;
+        padding: none;
+    }
+    header .contr .cart img {
+        margin-right: 6px;
+
+    }
+    header .contr .menu{
+        display: none;
+    }
+    header form  div{
+       margin-right:10px ;
+    }
+     header form  div input{
+      width: 112px;
+    }
+    header form  div{
+        width: 190px;
+    }
+
+
+}
+
+
+
+@media screen  and (max-width: 335x){
+       header form  div{
+            width: 290px;
+        }
+         header form  div input{
+      width: 160px;
+    }
+    }
+  
+
+
+
+    
