@@ -1,155 +1,244 @@
-@media screen  and (max-width: 1199px){
-    header form div{
-        width: 239px;
-    }
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 
+@font-face{
+    font-family: ofont;
+    font-weight: normal;
+    font-style: normal;
+    src: url("../fonts/ofont.ru_Opsilon.ttf")
+}
+@font-face{
+    font-family: ofont;
+    font-weight: 130;
+    src: url("../fonts/ofont.ru_Unsightly.ttf")
+}
 
-@media screen  and (max-width: 991px){
-header > .contr{
-    flex-wrap: wrap;
-    justify-content: center;
+
+.contr-fol{
+    width: 100%;
 }
-header > .contr > img {
-    margin-right: 30px;
+
+
+.contr{
+    max-width: 1140px;
+    margin: 0 auto;
 }
-header > .contr form, header > .contr .cart {
-    margin-top: 15px;
+
+
+body{
+    font-family: "ofont", Arial;
+    width: 100%;
+    font-size: 16px;
 }
-header > .contr form{
-    margin-right: 20px;
+.d-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.contr img {
+    height: 110px;
+}
+
+header >.contr {
+padding: 40px 20px;
+}
+
+header .contr .menu a{
+    font-size: 0.875em;
+    text-decoration: none;
+    color: rgb(20, 20, 20);
+    margin: 0 22px;
+}
+
+header  .contr  .menu  a:hover,
+header  .contr  .menu  a.aktiv{
+    color: rgb(216, 122, 0);
+    font-weight: 130;
+    padding-bottom: 7px;
+    border-bottom: 3px solid rgb(179, 104, 7);
 }
 header form div {
-    width: 410px;
+    justify-content: center;
+    padding: 10px 20px;
+    border: 2px solid rgb(255, 200, 128);
+    border-radius: 45px;
+    width: 320px;
+}
+
+header form div input[type="submit"]{
+    width: 15px;
+    background: url('../imags/free-png.ru-44.png');
+    background-size: cover;
+    width: 16px;
+    height: 16px;
+    border: none;
+}
+header form div input[type="submit"]:hover{
+    cursor: pointer;
+}
+
+
+header form div input[type="text"]{
+    border:none;
+    margin-right: 10px;
+
+}
+.cart img{
+    margin-right:7px ;
+   width: 25px;
+   height: 25px;
+}
+header .cart div p {
+    font-size: 0.9375em;
+    margin-left: 3px;
+    color: rgb(83, 82, 82);
+}
+
+header .cart div a {
+    text-decoration:none ;
+    color: darkgoldenrod;
+    font-size: 0.75em;
+}
+
+header .cart{
+    align-items: start;
+}
+header .burger{
+    width: 35px;
+    height: 35px;
+    display: none;
+    margin: 0!important
+}
+footer{
+    background-color: rgb(94, 94, 94);
+padding-top: 50px;
+padding-bottom: 20px;
+}
+footer .cotr{
+    align-items: flex-start;
+}
+.left img {
+    width: 80px;
+    height: 80px;
+}
+.left figcaption{
+    color: rgb(235, 235, 235);
+    font-size: 0.875em;
+    margin-top: 25px;
+    width: 135px;
+}
+footer .left {
+    margin-left: 135px;
+    align-items: flex-start;
+}
+footer .left nav a{
+    display: block;
+    font-size: 0.875em;
+    color: rgb(235, 235, 235);
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+footer .left nav{
+    margin-left: 100px;
+}
+
+
+footer .left nav a:hover,footer .left nav a.aktiv{
+color: rgb(212, 146, 58);
 }
 footer .right form div {
-    width: 240px;
+    justify-content: left;
+    width: 450px;
+    border-bottom: 2px solid #ffffff;
+    margin-right: 180px;
+}
+footer .right form input[type='text']{
+    padding: 8px 0;
+    width: 100%;
+    background: none;
+    border: none;
+}
+footer .right form input[type='submit']{
+    width: 20px;
+    height: 20px;
+    background: url('../imags/free-png.ru-44.png') no-repeat;
+    background-size: cover;
+    border: none;
+    margin-right: 10px;
+}
+footer .right > div{
+    text-align: center;
+    font-size: 0.875em;
+    color: #ffffff;
+    margin-top: 33px;
+    margin-bottom: 15px;
+    margin-right: 180px;
 }
 
-
-
-
-}
-
-
-
-@media screen  and (max-width: 744px){
-    header form div {
-        width: 300px;
-    }
-    header .menu {
-        margin: 13px 0;
-        
-    }
-    footer .cotr{
-        flex-wrap: wrap;
-    }
-    footer .right{
-        margin-left: 20px auto 0;
-    }
-
-}
-
-
-
-
-@media screen  and (max-width: 560px){
-   header form div {
-        width: 270px;
-    } 
-    header .contr .menu a {
     
-    }
-    header .contr form {
-        margin-right: 7px;
-    }
-    header .contr img {
-        margin-left: 20px;
-    }
-    
-    footer .cotr{
-        flex-wrap: wrap;
-    }
-    footer .right{
-        margin:20px auto 0;
-    }
-    footer .copy {
-        margin-top: 10px;
-    }
+
+footer .right .insta {
+    background: url('../imags/инста.png') no-repeat;
+    background-size: cover;
 }
-
-
-
-
-
-@media screen  and (max-width: 460px){
-    header .contr .menu a {
-        margin: 0 6px;
-    }
-    header form  div input{
-      width: 120px;
-    }
-    header form  div{
-        width: 200px;
-    }
-}
-
-
-
-@media screen  and (max-width: 414px){
-   header .burger{
-     display: inline-block;
-   }
-   header .contr img {
-        margin-left: 0px;
-        margin-right: 150px;
+footer .right .insta:hover{
+    background: url('../imags/free-icon-instagram-15713420\ hover.png') no-repeat;
+    background-size: 42px;
    
-    }
-    header .contr .menu a{
-        display: block;
-        margin-top: 10px;
-        margin-bottom: 10px;
-        margin-left: 38px;
-        
-    }
-
-    header .contr .menu a:hover,  header .contr .menu a.aktiv {
-        border: none;
-        padding: none;
-    }
-    header .contr .cart img {
-        margin-right: 6px;
-
-    }
-    header .contr .menu{
-        display: none;
-    }
-    header form  div{
-       margin-right:10px ;
-    }
-     header form  div input{
-      width: 112px;
-    }
-    header form  div{
-        width: 190px;
-    }
-
 
 }
 
+footer .right .telegram {
+    background: url('../imags/телега.png') no-repeat;
+    background-size: cover;
+}
+footer .right .telegram:hover{
+    background: url('../imags/icons8-телеграмма-48.png') no-repeat;
+    background-size: 40px;
+}
 
+footer .right .vk {
+    background: url('../imags//icons8-vk-50.png') no-repeat;
+    background-size: cover;
+}
+footer .right .vk:hover{
+    background: url('../imags/icons8-vk-94.png') no-repeat;
+    background-size: 42px;
+}
+footer .right p {
+    font-size: 20px;
+}
+footer .copy{
+    text-align: center;
+    color: rgb(221, 221, 221);
+    font-size: 0.750em;
+    margin-top: 60px;
 
-@media screen  and (max-width: 335x){
-       header form  div{
-            width: 290px;
-        }
-         header form  div input{
-      width: 160px;
-    }
-    }
-  
+}
+.right .d-flex {
+    display: flex;
+    gap: 30px;  /* Было 10px, ставим 5px */
+    justify-content: center; /* Добавляем для центровки */
+}
 
+.right .box {
+    margin: 28px 0 0;  /* Убираем боковые отступы */
+    padding: 0;        /* Убираем внутренние отступы */
+    width: 40px;
+    height: 40px;
+}
 
-
-    
+footer.cotr-fol {
+    width: 100%;
+    max-width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
